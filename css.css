@@ -498,6 +498,7 @@
   width: 21em;
   height: auto;
   margin-top: 1em;
+  border-radius: 15px;
 
   }
   
@@ -506,14 +507,24 @@
   }
   
   
-  .page4 {
-  background-image: url(im-grieving-670x410.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vh;
-  margin: 1em 0;
 
-  }
+  .page4{
+    min-height: calc(62vh - 200px);
+    margin-bottom: 1em;
+  white-space:nowrap;
+  background: #fff 0px 0px url(custom-app-carousel-01.png) repeat-x;
+
+  animation: soup 25s linear infinite;
+  -webkit-animation: soup 25s linear infinite;
+  -moz-animation: soup 25s linear infinite;
+  -o-animation: soup 25s linear infinite;
+}
+
+@keyframes soup{
+  0%{background-position: 0 0;}
+  100%{background-position: -2380px 0;}
+	
+}
   
   .page4 p {
   position: relative;
@@ -712,7 +723,13 @@
     word-spacing: 20px;
   }
 
-   /*responsive 480*/ 
+  footer p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+   /*responsive 480 1366*/ 
   @media (max-width: 480px) {
   
     body {overflow-x: visible;}
@@ -760,6 +777,7 @@
     .page3 p {
         width: 75%;
         padding: 50px;
+        
 
         }
 
