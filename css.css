@@ -531,11 +531,12 @@ body::-webkit-scrollbar-track {
   
 
   .page4{
+    position: relative;
+    padding: 8.3em;
     min-height: calc(62vh - 200px);
     margin-bottom: 1em;
   white-space:nowrap;
   background: #fff 0px 0px url(custom-app-carousel-01.png) repeat-x;
-
   animation: soup 25s linear infinite;
   -webkit-animation: soup 25s linear infinite;
   -moz-animation: soup 25s linear infinite;
@@ -786,9 +787,6 @@ body::-webkit-scrollbar-track {
 
    /*responsive 480 1366*/ 
   @media (max-width: 480px) {
-  
-    body {overflow-x: visible;}
-  
   
     header nav {
       display: none;
