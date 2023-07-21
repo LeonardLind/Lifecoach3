@@ -472,6 +472,10 @@ body::-webkit-scrollbar-track {
     0%   { width : 0 ; }
     100% { width : 124px ; }
   }
+
+  #btn1{
+    top: -5em;
+  }
   
 
   .rubrik {
@@ -493,6 +497,7 @@ body::-webkit-scrollbar-track {
 
   #about{
     padding-left: 35em;
+    top: 7em;
   }
 
   .page3 {
@@ -524,6 +529,7 @@ body::-webkit-scrollbar-track {
   
   #btn2{
   padding-left: 35em;
+  top: -8em;
   }
   
   
@@ -575,7 +581,7 @@ body::-webkit-scrollbar-track {
   border-left: 0;
   border-style: solid;
   /* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
-  border-image: linear-gradient(to bottom, #C9EEC1, #eee, #C9EEC1) 1 100%;
+  border-image: linear-gradient(to bottom, #cef3c6, #eee, #cef3c6) 1 100%;
   }
   
   .Sbox:last-child {
@@ -771,6 +777,15 @@ body::-webkit-scrollbar-track {
 
   @media (max-width: 1100px) {
 
+    #about{
+      top: 2em;
+  }
+
+  #btn2{
+    padding-left: 35em;
+    top: -1em;
+    }
+
     .page6 {
     padding: 0em 5em;
     }
@@ -808,8 +823,13 @@ body::-webkit-scrollbar-track {
     padding: 0 0 1em 0;
 }
 
+#btn1{
+  top: 0em;
+}
+
 #about{
     padding-left: 0;
+    top: 0;
 }
 
   .page3{
@@ -832,6 +852,7 @@ body::-webkit-scrollbar-track {
   #btn2{
     margin: 1em;
     padding-left: 0em;
+    top: 0em;
 }
 
 #work-with-me span{
@@ -899,6 +920,10 @@ body::-webkit-scrollbar-track {
       width: 90%;
       top: 7%;
       left: 7%;
+      }
+
+      video{
+        box-shadow: 10px 10px var(--boxshadow);
       }
 
   }
